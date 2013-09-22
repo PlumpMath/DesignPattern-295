@@ -19,6 +19,10 @@ public class TestArrayTicketMaker {
 		TestArrayTicketMaker ticketMaker1 = ArrayTicketMaker.getInstance(1);
 		TestArrayTicketMaker ticketMaker2 = ArrayTicketMaker.getInstance(2);
 
+		assertThat(ticketMaker0 , is(ticketMaker0));
+		assertThat(ticketMaker1 , is(ticketMaker1));
+		assertThat(ticketMaker2 , is(ticketMaker2));
+		
 		assertThat(ticketMaker0 , not(ticketMaker1));
 		assertThat(ticketMaker0 , not(ticketMaker2));
 		assertThat(ticketMaker1 , not(ticketMaker2));
