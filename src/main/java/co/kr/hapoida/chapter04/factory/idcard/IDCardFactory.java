@@ -16,8 +16,8 @@ public class IDCardFactory extends Factory{
 	}
 
 	@Override
-	protected Product createProduct(String owner) {
-		return new IDCard(owner);
+	protected Product createProduct(String owner, long idNumber) {
+		return new IDCard(owner, idNumber);
 	}
 	
 	public List getOwners(){
