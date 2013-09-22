@@ -1,8 +1,8 @@
-package co.kr.hapoida.iterator.array;
+package co.kr.hapoida.chapter01.iterator.array;
 
-import co.kr.hapoida.iterator.Aggreate;
-import co.kr.hapoida.iterator.BookShelfIterator;
-import co.kr.hapoida.iterator.Iterator;
+import co.kr.hapoida.chapter01.iterator.Aggreate;
+import co.kr.hapoida.chapter01.iterator.BookShelfIterator;
+import co.kr.hapoida.chapter01.iterator.Iterator;
 
 
 public class Bookshelf implements Aggreate{

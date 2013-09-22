@@ -1,4 +1,4 @@
-package co.kr.hapoida.iterator;
+package co.kr.hapoida.chapter01.iterator;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
@@ -9,13 +9,14 @@ import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import co.kr.hapoida.iterator.array.Book;
-import co.kr.hapoida.iterator.arrayList.ArrayListBookShelf;
+import co.kr.hapoida.chapter01.iterator.Iterator;
+import co.kr.hapoida.chapter01.iterator.array.Book;
+import co.kr.hapoida.chapter01.iterator.arrayList.ArrayListBookShelf;
 
 @ContextConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
 public class TestArrayListIterator {
-	String[] bookNames = {"Around the world in 80 Days","Bible","Cinderella","Daddy-long_legs"};
+	String[] bookNames = {"Around the world in 80 Days","Bible","Cinderella","Daddy-long_legs","servlet-jsp"};
 	
 	private ArrayListBookShelf bookshelf;
 	
@@ -26,6 +27,7 @@ public class TestArrayListIterator {
 		bookshelf.appendBook(new Book(bookNames[1]));
 		bookshelf.appendBook(new Book(bookNames[2]));
 		bookshelf.appendBook(new Book(bookNames[3]));
+		bookshelf.appendBook(new Book(bookNames[4]));
 	}
 	
 	@Test

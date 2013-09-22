@@ -1,4 +1,4 @@
-package co.kr.hapoida.iterator;
+package co.kr.hapoida.chapter01.iterator;
 
 public interface Iterator {
 	public abstract boolean hasNext();

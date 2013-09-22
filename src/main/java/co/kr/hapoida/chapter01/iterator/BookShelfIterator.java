@@ -1,7 +1,7 @@
-package co.kr.hapoida.iterator;
+package co.kr.hapoida.chapter01.iterator;
 
-import co.kr.hapoida.iterator.array.Book;
-import co.kr.hapoida.iterator.array.Bookshelf;
+import co.kr.hapoida.chapter01.iterator.array.Book;
+import co.kr.hapoida.chapter01.iterator.array.Bookshelf;
 
 
 public class BookShelfIterator implements Iterator{

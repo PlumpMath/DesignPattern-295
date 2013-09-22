@@ -1,10 +1,10 @@
-package co.kr.hapoida.iterator.arrayList;
+package co.kr.hapoida.chapter01.iterator.arrayList;
 
 import java.util.ArrayList;
 
-import co.kr.hapoida.iterator.Aggreate;
-import co.kr.hapoida.iterator.Iterator;
-import co.kr.hapoida.iterator.array.Book;
+import co.kr.hapoida.chapter01.iterator.Aggreate;
+import co.kr.hapoida.chapter01.iterator.Iterator;
+import co.kr.hapoida.chapter01.iterator.array.Book;
 
 public class ArrayListBookShelf implements Aggreate{
 	

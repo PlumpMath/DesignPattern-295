@@ -1,4 +1,4 @@
-package co.kr.hapoida.iterator;
+package co.kr.hapoida.chapter01.iterator;
 
 
 import static org.junit.Assert.assertThat;
@@ -10,8 +10,9 @@ import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import co.kr.hapoida.iterator.array.Book;
-import co.kr.hapoida.iterator.array.Bookshelf;
+import co.kr.hapoida.chapter01.iterator.Iterator;
+import co.kr.hapoida.chapter01.iterator.array.Book;
+import co.kr.hapoida.chapter01.iterator.array.Bookshelf;
 
 @ContextConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
