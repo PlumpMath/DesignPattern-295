@@ -1,6 +1,6 @@
-package co.kr.hapoida.chapter02.adapter;
+package co.kr.hapoida.chapter02.adapter.clas;
 
-public interface Print {
+public abstract class Print {
 	public abstract String printWeak();
 	public abstract String printStrong();
 }

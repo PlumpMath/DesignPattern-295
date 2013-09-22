@@ -8,13 +8,12 @@ import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import co.kr.hapoida.chapter02.adapter.inteface.Print;
-import co.kr.hapoida.chapter02.adapter.inteface.PrintBanner;
+import co.kr.hapoida.chapter02.adapter.clas.Print;
+import co.kr.hapoida.chapter02.adapter.clas.PrintBanner;
 
 @ContextConfiguration
 @RunWith(SpringJUnit4ClassRunner.class)
-public class TestAdapter {
-	
+public class TestClassAdapter {
 	@Test
 	public void test_어뎁터프린트(){
 		

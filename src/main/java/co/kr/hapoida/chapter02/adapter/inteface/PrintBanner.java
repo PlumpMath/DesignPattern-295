@@ -1,4 +1,6 @@
-package co.kr.hapoida.chapter02.adapter;
+package co.kr.hapoida.chapter02.adapter.inteface;
+
+import co.kr.hapoida.chapter02.adapter.Banner;
 
 public class PrintBanner extends Banner implements Print{
 
