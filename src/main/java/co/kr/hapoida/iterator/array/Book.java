@@ -1,4 +1,4 @@
-package co.kr.hapoida.iterator;
+package co.kr.hapoida.iterator.array;
 
 public class Book {
 	private String name;
